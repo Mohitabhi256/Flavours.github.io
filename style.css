@@ -1,0 +1,330 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    height: 20%;
+    width: 20%;
+    display: flex
+}
+
+chikun {
+    display: flex;
+    width: 0%;
+    position: fixed;
+    padding: 2px;
+}
+
+.chikun a {
+    display: inline-block;
+    width: auto;
+    background-color: rgb(5, 5, 83);
+    opacity: 85%;
+    margin: 1%;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20%;
+    color: aqua;
+    font-weight: bolder;
+}
+
+.header {
+    background-image: linear-gradient(to right bottom, rgba(172, 110, 172, 0.41), rgba(161, 161, 165, 0.574)), url("https://images.wallpaperscraft.com/image/single/restaurant_table_interior_39288_1920x1080.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+#tite {
+    color: black;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 80px;
+    text-shadow: 3px 3px 5px #d48593;
+}
+
+#tagline {
+    color: rgb(207, 47, 116);
+    font-size: 40px;
+    border: 0px solid transparent;
+    box-shadow: 0 0 20px rgba(113, 20, 222, 0.67);
+    font-weight: bolder;
+    padding: 7px;
+    font-family: sans-serif
+}
+
+.para1 {
+    text-align: justify;
+    padding: 100px;
+    margin: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.head2 {
+    background-image: linear-gradient(to right bottom, rgba(104, 181, 97, 0.4), rgba(161, 161, 165, 0.74)), url(https://plus.unsplash.com/premium_photo-1661953124283-76d0a8436b87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1788&q=80);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: end;
+    font-size: 20px;
+    font-family: Sofia;
+    color: #5d1f2b;
+    text-shadow: 3px 3px 5px #d48593;
+}
+
+#conme {
+    font-family: monospace;
+    font-size: 20px;
+    padding-top: 0px;
+    margin: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    background-color: aliceblue;
+    position: fixed;
+    line-height: 0px;
+}
+
+.more {
+    border: 10px solid transparent;
+    box-shadow: 0 0 20px rgba(10, 11, 11, 0.87);
+    padding: 2px;
+    text-align: center;
+    align-items: center;
+}
+
+#confe {
+    padding: 0px;
+    padding-top: ;
+    margin: px px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.wokay {
+    padding: 50px;
+    margin: 0px;
+}
+
+.mine {
+    width: 90%;
+    height: 90%;
+}
+
+.dine {
+    display: flex;
+    flex-direction: row;
+}
+
+.dine1 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 3px;
+    height: 50%;
+    justify-content: space-around;
+}
+
+.idea {
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    font-size: 30px;
+    border: 0px solid transparent;
+    box-shadow: 0 0 20px rgba(142, 160, 160, 0.87);
+    width: 80%;
+    text-align: center;
+}
+
+.mena {
+    padding: 4px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 3;
+    justify-content: space-around;
+    height: 50%;
+    padding: 20px;
+}
+
+.dine2 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    font-family: Almendra SC;
+    justify-content: space-around;
+    height: 50%;
+    font-size: 29px;
+    line-height: 37px;
+    width: 50%;
+    padding: 20px;
+}
+
+.fire {
+    text-align: start;
+    font-size: 30px;
+    color: #106d6d;
+    text-shadow: 3px 1px 5px #e39e59;
+    font-family: Sofia;
+}
+
+.firee {
+    text-align: end;
+    text-shadow: 3px 1px 5px #e39e59;
+    font-size: 30px;
+    color: #106d6d;
+    font-family: Sofia;
+    padding-right: 125px
+}
+
+.btrr {
+    width: auto;
+    height: 40px;
+    padding: 10px;
+    align-items: center;
+    color: #fdfdf8;
+    font-size: 20px;
+    background-image: linear-gradient(to top, black, gray, white)
+}
+
+.foot1 {
+    background: linear-gradient(to right bottom, rgba(127, 160, 226, 0.61), rgba(161, 161, 165, 0.574));
+    min-height: 50px;
+    min-width: 100%;
+    margin-top: 20%
+}
+
+.box8 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    padding-left: 100px;
+    flex-basis: 0.25;
+    justify-content: space-between;
+}
+
+.loggo {
+    width: 35%;
+}
+
+.likho {
+    font-size: 30px;
+    padding: 0px;
+}
+
+.span1,
+.span2,
+.span3 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    line-height: 40px;
+    justify-content: space-around;
+}
+
+.drrop {
+    position: relative;
+    display: inline-block;
+}
+
+. .dropp {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.drop {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.drop a {
+    padding: 12px 16px;
+    color: antiquewhite;
+    text-decoration: none;
+    display: block;
+}
+
+.drop a:hover {
+    background-color: #ddd;
+    color: black
+}
+
+.drrop:hover .drop {
+    display: block;
+}
+
+.drrop:hover .dropp {
+    background-color: #3e8e41;
+}
+
+.listt {}
+
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+}
+
+.progress-bar {
+    height: 8px;
+    background-color: aqua;
+    width: 0%;
+}
+
+.headere {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.C1_button {
+    background-color: black;
+    color: gold;
+    border: none;
+    padding: 3px 6px;
+    text-align: center;
+    display: flex;
+    transform: translateY(-150%);
+    margin-left: 88%;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    float: right;
+    max-width: 100%;
+    margin-top: px;
+    position: fixed;
+}
+
+.C1_button:hover {
+    cursor: pointer;
+}
