@@ -16,7 +16,7 @@ This is a front-end website designed with a clean layout and user-friendly inter
 - Check the restaurant’s location on an embedded map  
 - Explore the ambiance through a gallery section  
 - Connect with the restaurant through the contact details provided on the site  
-- Experience additional features such as operating hours, special chef’s dishes, special dishes by the chef, social media links, and an integrated Google Map for easy location
+- Experience additional features such as operating hours, special dishes by the chef, social media links, and an integrated Google Map for easy location
 
 Focus is on modern HTML, CSS, and JavaScript for a great user experience.
 
