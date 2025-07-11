@@ -1,12 +1,12 @@
 # Restaurant Website
 
-> A modern and responsive front-end website showcasing a restaurant's menu, location, and ambiance.
+ A modern and responsive front-end website showcasing a restaurant's menu, location, and ambiance.
 
 ---
 
 ## Overview
 
-This is a static front-end website designed with a clean layout and user-friendly interface to engage visitors. It provides key information like menu offerings, location, and ambiance visuals.
+This is a front-end website designed with a clean layout and user-friendly interface to engage visitors. It provides key information like menu offerings, location, and ambiance visuals.
 
 ---
 
